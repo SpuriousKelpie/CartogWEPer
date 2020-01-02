@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.spurious.kelpie.cartogweper.ListviewFragment"
+    android:background="#FFF"
+    android:clickable="true"
+    android:layout_weight="3">
+
+    <TextView
+        android:id="@+id/ssid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="SSID: "
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/ssid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@id/ssid1"
+        android:layout_marginTop="100dp"
+        android:text="SSID"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/mac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ssid1"
+        android:layout_marginStart="10dp"
+        android:text="MAC: "
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/mac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_toEndOf="@id/proto1"
+        android:layout_below="@id/ssid2"
+        android:text="Mac"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/proto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mac1"
+        android:layout_marginStart="10dp"
+        android:text="Protocol: "
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/proto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_toEndOf="@id/proto1"
+        android:layout_below="@id/mac2"
+        android:text="Protocol"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/lati1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/proto1"
+        android:text="Latitude"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/lati2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_toEndOf="@id/lati1"
+        android:layout_below="@id/proto2"
+        android:text="Latitude"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/longi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/lati1"
+        android:text="Longitude"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/longi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_toEndOf="@id/longi1"
+        android:layout_below="@id/lati1"
+        android:text="Longitude"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/rssi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/longi1"
+        android:text="RSSI: "
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/rssi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@id/rssi1"
+        android:layout_below="@id/longi2"
+        android:text="RSSI"
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/band1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rssi1"
+        android:layout_marginStart="10dp"
+        android:text="Band Frequency: "
+        android:textColor="#111"/>
+
+    <TextView
+        android:id="@+id/band2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@id/rssi1"
+        android:layout_below="@id/rssi2"
+        android:text="Band"
+        android:textColor="#111"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/band1"/>
+
+</RelativeLayout>
