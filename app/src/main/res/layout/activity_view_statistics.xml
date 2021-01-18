@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kelpie.cartogweper.ViewStatisticsActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Select Scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/stat1"
+        android:text="Number of networks scanned: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"/>
+
+    <TextView
+        android:id="@+id/stat2"
+        android:text="Number of WPA networks: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stat1"/>
+
+    <TextView
+        android:id="@+id/stat3"
+        android:text="Number of WEP networks: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stat2"/>
+
+    <TextView
+        android:id="@+id/stat4"
+        android:text="Number of open networks: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stat3"/>
+
+
+
+</RelativeLayout>

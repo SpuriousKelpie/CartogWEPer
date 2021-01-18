@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.kelpie.cartogweper.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.kelpie.cartogweper.SettingsActivity$ScanPreferenceFragment"
+        android:title="@string/pref_header_scan" />
+
+    <header
+        android:fragment="com.kelpie.cartogweper.SettingsActivity$FilePreferenceFragment"
+        android:title="@string/pref_header_file" />
+
+</preference-headers>
